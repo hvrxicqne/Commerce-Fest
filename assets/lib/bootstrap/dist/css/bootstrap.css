@@ -1586,19 +1586,23 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  overflow-x:hidden;
 }
 @media (min-width: 768px) {
   .container {
+  overflow-x:hidden;
     width: 750px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+      overflow-x:hidden;
+width: 970px;
   }
 }
 @media (min-width: 1200px) {
   .container {
+  overflow-x:hidden;
     width: 1170px;
   }
 }
@@ -1607,6 +1611,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  overflow-x:hidden;
 }
 .row {
   margin-right: -15px;
